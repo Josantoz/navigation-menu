@@ -1,0 +1,34 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    /*width:100%;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-items {
+    background: maroon;
+    margin: 0;
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /*flex-flow:row wrap;*/
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: yellow;
+    padding: 15px;
+    display: block;
+}
+
+.nav-items a:hover {
+    color: rgb(0, 255, 76);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.main-container img {
+    width: 100%;
+}
